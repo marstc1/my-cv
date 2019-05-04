@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import "./App.css";
+
+import Header from "./components/Header";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Testimonials from "./components/Testimonials";
+import Resume from "./components/Resume";
+import Contacts from "./components/Contacts";
+import Footer from "./components/Footer";
+
+import headerData from "./data/headerData";
+import aboutData from "./data/aboutData";
+import resumeData from "./data/resumeData";
+import portfolioData from "./data/portfolioData";
+import testimonialsData from "./data/testimonialsData";
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Header headerData={headerData} />
+        <About aboutData={aboutData} />
+        <Resume resumeData={resumeData} />
+        <Portfolio portfolioData={portfolioData} />
+        <Testimonials testimonialsData={testimonialsData} />
+        <Contacts aboutData={aboutData} />
+        <Footer aboutData={aboutData} />
+      </div>
+    );
+  }
 }
 
 export default App;
