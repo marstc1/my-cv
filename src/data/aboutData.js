@@ -30,7 +30,7 @@ let aboutData = {
       className: "fa fa-github"
     },
     {
-      name: "skype",
+      name: "twitter",
       url: "http://twitter.com/Chris_Marston",
       className: "fa fa-twitter"
     }

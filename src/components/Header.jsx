@@ -7,10 +7,10 @@ export default class Header extends Component {
     return (
       <header id="home">
         <nav id="nav-wrap">
-          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
+          <a className="mobile-btn" href="#nav-wrap">
             Show navigation
           </a>
-          <a className="mobile-btn" href="#" title="Hide navigation">
+          <a className="mobile-btn" href="#nav-clear">
             Hide navigation
           </a>
           <ul id="nav" className="nav">
@@ -61,6 +61,7 @@ export default class Header extends Component {
 
         <p className="scrolldown">
           <a className="smoothscroll" href="#about">
+            <span className="sr-only">Skip to About Me</span>
             <i className="icon-down-circle" />
           </a>
         </p>

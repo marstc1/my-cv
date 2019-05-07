@@ -14,6 +14,7 @@ export default class Footer extends Component {
                   return (
                     <li>
                       <a href={item.url}>
+                        <span className="sr-only">{item.name}</span>
                         <i className={item.className} />
                       </a>
                     </li>
@@ -22,7 +23,8 @@ export default class Footer extends Component {
             </ul>
           </div>
           <div id="go-top">
-            <a className="smoothscroll" title="Back to Top" href="#home">
+            <a className="smoothscroll" href="#home">
+            <span className="sr-only">Back to Top</span>
               <i className="icon-up-open" />
             </a>
           </div>

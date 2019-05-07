@@ -60,11 +60,6 @@ export default class Contacts extends Component {
             </p>
           </div>
         </div>
-        <div id="go-top">
-          <a className="smoothscroll" title="Back to Top" href="#home">
-            <i className="icon-up-open" />
-          </a>
-        </div>
       </section>
     );
   }
