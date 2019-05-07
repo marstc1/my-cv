@@ -424,7 +424,7 @@ a,
 a:visited {
   text-decoration: none;
   outline: 0;
-  color: #11abb0;
+  color: #720b8d;
 
   -webkit-transition: color 0.3s ease-in-out;
   -moz-transition: color 0.3s ease-in-out;
@@ -433,7 +433,7 @@ a:visited {
 }
 a:hover,
 a:focus {
-  color: #313131;
+  color: #cd73e4;
 }
 p a,
 p a:visited {
