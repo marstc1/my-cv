@@ -1,0 +1,14 @@
+{
+    "pd": {
+        "awscloudformation": {
+            "AuthRoleName": "my-cv-pd-20190506132841-authRole",
+            "UnauthRoleArn": "arn:aws:iam::090211229427:role/my-cv-pd-20190506132841-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::090211229427:role/my-cv-pd-20190506132841-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "my-cv-pd-20190506132841-deployment",
+            "UnauthRoleName": "my-cv-pd-20190506132841-unauthRole",
+            "StackName": "my-cv-pd-20190506132841",
+            "StackId": "arn:aws:cloudformation:eu-west-1:090211229427:stack/my-cv-pd-20190506132841/7a7c1490-6ffa-11e9-8179-0afa58e29f3e"
+        }
+    }
+}

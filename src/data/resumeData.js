@@ -19,7 +19,7 @@ let resumeData = {
         "Nominated for the Aviva CIO Unsung Hero award",
         "Delivering high quality applications for Barclays, HSBC, Marks and Spencer and First Direct",
         "Migrating our estate onto Amazon Web Services",
-        "Enabling productivity during a 6 week maintenance window by implementing service virtualisation using WireMock"
+        "Enabling productivity during a 6 week maintenance window by implementing service virtualisation"
       ]
     },
     {
@@ -104,16 +104,16 @@ let resumeData = {
   ],
   skills: [
     "C#",
-    ".net MVC",
-    "Service virtualisation (WireMock)",
+    ".NET MVC",
+    "Service virtualisation (Wire Mock)",
     "HTML 5",
     "CSS",
     "Bootstrap",
-    "Javascript",
-    "JQuery",
+    "JavaScript",
+    "jQuery",
     "React",
     "Knockout",
-    "Rubiks cube (1 min 28 secs)"
+    "Rubik's cube (1 min 28 secs)"
   ],
   interests: [
     "Building arcade machines",
