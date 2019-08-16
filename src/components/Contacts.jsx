@@ -27,7 +27,7 @@ export default class Contacts extends Component {
           </div>
         </div>
 
-        <div className="row text-left">
+        {/* <div className="row text-left">
           <div className="three columns">
             <h3>Telephone</h3>
           </div>
@@ -59,7 +59,7 @@ export default class Contacts extends Component {
               {aboutData.address.postCode}
             </p>
           </div>
-        </div>
+        </div> */}
       </section>
     );
   }
