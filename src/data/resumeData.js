@@ -7,19 +7,25 @@ let resumeData = {
       company: "Aviva",
       location: "Norwich",
       responsibilities: [
-        "Leading Aviva’s Strategic Partner Development Team (13 people)",
-        "Managing the day-to-day activities within an Agile environment",
+        "Leading Aviva’s External Banking Partners Development Team (13 people based in Norwich and India)",
+        "Working alongside the team manager to identify best team set-up",
         "Managing / monitoring the continuous integration environment",
-        "Application development (C# ASP.net MVC)",
+        "Solutions architecture, high level estimation and planning",
+        "Story development",
+        "Back end application development (C# ASP.NET MVC)",
+        "Fuse web service and Exceed Insurance platform integration",
         "Front end development (HTML 5, CSS, JavaScript, JQuery, Knockout, Bootstrap, React)",
-        "Gatekeeping code merge requests",
+        "Peer reviewing code merge requests",
         "Driving continuous Agile improvements across the development teams"
       ],
       keyHighlights: [
         "Nominated for the Aviva CIO Unsung Hero award",
-        "Delivering high quality applications for Barclays, HSBC, Marks and Spencer and First Direct",
+        "Creation of the first guilds within Aviva Digital to drive the ethos of continuous improvement, automation and code quality",
+        "Creation of the Developer Forum to ensure knowledge is shared across the team, enabling efficient team working",
+        "Delivering high quality applications for Barclays, TSB, HSBC, Marks and Spencer and First Direct",
         "Migrating our estate onto Amazon Web Services",
-        "Enabling productivity during a 6 week maintenance window by implementing service virtualisation"
+        "Implementing service virtualisation, enabling productivity during a planned 6 week maintenance window",
+        "Working in an Agile environment"
       ]
     },
     {
@@ -29,18 +35,22 @@ let resumeData = {
       company: "Aviva",
       location: "Norwich",
       responsibilities: [
-        "Application development (C# ASP.net MVC) for Aviva's strategic partners Barclays and TSB"
+        "Application development for Barclays and TSB (Aviva's External Banking Partners)"
       ],
       keyHighlights: []
     },
     {
-      role: "Work Packet Manager",
+      role: "Work Package Manager",
       from: "January 2007",
       to: "April 2012",
       company: "Aviva",
       location: "Norwich",
       responsibilities: [
-        "Managing multiple waterfall deliveries and development teams",
+        "Managing multiple deliveries and development teams",
+        "Monitoring project budgets and schedules",
+        "Coordinating project activities with internal and external stakeholders",
+        "Managing project proposals, purchase orders, change orders",
+        "Reporting project health",
         "Line management (6 people)"
       ],
       keyHighlights: []
@@ -51,7 +61,7 @@ let resumeData = {
       to: "December 2006",
       company: "Aviva",
       location: "Norwich",
-      responsibilities: ["VB6 Application Development"],
+      responsibilities: ["VB6 web application development"],
       keyHighlights: []
     },
     {
@@ -60,7 +70,7 @@ let resumeData = {
       to: "October 2005",
       company: "Aviva",
       location: "Norwich",
-      responsibilities: [],
+      responsibilities: ["HTML CSS website development"],
       keyHighlights: []
     },
     {
@@ -105,6 +115,8 @@ let resumeData = {
   skills: [
     "C#",
     ".NET MVC",
+    "Entity Framework",
+    "Unit testing - NUnit test framework",
     "Service virtualisation (Wire Mock)",
     "HTML 5",
     "CSS",
@@ -113,6 +125,8 @@ let resumeData = {
     "jQuery",
     "React",
     "Knockout",
+    "JIRA, Azure Dev Ops",
+    "Git version control",
     "Rubik's cube (1 min 28 secs)"
   ],
   interests: [

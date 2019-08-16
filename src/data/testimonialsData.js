@@ -11,7 +11,7 @@ let testimonialsData = {
       sender: "Kevin B",
       role: "Platform Architect",
       comments:
-        "I've worked closely with Chris on a couple of things in the last month or so and it has been a real pleasure.  Two things stand out that I think are definitely worth rewarding.  The first is the extra effort Chris went to in producing an excellent info graphic documenting the history of Strat Partners QNB. The second was how he lead the creation of the team charter; his initial work formed the main content of the final deliverable.  For me, this work demonstrates Chris's alignment to our Care More value!"
+        "I've worked closely with Chris on a couple of things in the last month or so and it has been a real pleasure.  Two things stand out that I think are definitely worth rewarding.  The first is the extra effort Chris went to in producing an excellent info graphic documenting the history of Aviva’s External Banking Partners. The second was how he led the creation of the team charter; his initial work formed the main content of the final deliverable.  For me, this work demonstrates Chris' alignment to our Care More value!"
     },
     {
       sender: "Lisa P",
